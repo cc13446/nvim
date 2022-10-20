@@ -97,7 +97,7 @@ pluginKeys.nvimTreeList = {
     { key = 'i', action = 'toggle_custom' }, -- 对应 filters 中的 custom (node_modules)
     { key = '.', action = 'toggle_dotfiles' }, -- Hide (dotfiles)
     -- 文件操作
-    { key = '<F5>', action = 'refresh' },
+    { key = 'f', action = 'refresh' },
     { key = 'a', action = 'create' },
     { key = 'd', action = 'remove' },
     { key = 'r', action = 'rename' },

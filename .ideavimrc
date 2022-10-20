@@ -108,7 +108,7 @@ noremap <leader>ec :action ExtractClass<CR>
 "匿名类到内部类
 noremap <leader>ai :action AnonymousToInner<CR>
 
- 跳转篇
+"跳转篇
 "搜索任何位置
 noremap <leader>te :action SearchEverywhere<CR>
 
@@ -404,7 +404,7 @@ nnoremap <leader>cp :action CheckinProject<CR>
 nnoremap <CR><CR> :action ShowIntentionActions<CR>
 
 "跳转下个报错处(这个与idea智能提示配起来,炒鸡爽)
-nnoremap <leader><CR> :action GotoNextError<CR>
+nnoremap <leader>g. :action GotoNextError<CR>
 
 "新建类,比nE快
 noremap <leader>nc :action NewClass<CR>
