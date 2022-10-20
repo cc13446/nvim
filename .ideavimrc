@@ -28,6 +28,9 @@ set autoread        "打开文件监视"
 set wildmenu        "命令自动补全"
 set wildmode=longest:list,full
 
+""" 搜索
+set hlsearch
+
 """ 移动
 map H ^
 map L $
@@ -363,10 +366,10 @@ noremap <leader>sm :action ShowPopupMenu<CR>
 noremap <leader>st :action SaveAsTemplate<CR>
 
 "复制当前文件的绝对路径
-noremap <leader>cap   :action CopyAbsolutePath<CR>
+noremap <leader>cap :action CopyAbsolutePath<CR>
 
 "复制当前文件名
-noremap <leader>ccp   :action CopyContentRootPath<CR>
+noremap <leader>ccp :action CopyContentRootPath<CR>
 
 "优化导入
 noremap <leader>oi :action OptimizeImports<CR>
