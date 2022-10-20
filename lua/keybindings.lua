@@ -55,6 +55,10 @@ map('t', '<Esc>', '<C-\\><C-n>', opt)
 map('v', '<', '<gv', opt)
 map('v', '>', '>gv', opt)
 
+-- 文本移动
+map('n', '<leader>k', ':m +1<CR>', opt)
+map('n', '<leader>j', ':m -2<CR>', opt)
+
 -- 上下移动选中文本
 map('v', 'J', ":move '>+1<CR>gv-gv", opt)
 map('v', 'K', ":move '<-2<CR>gv-gv", opt)
